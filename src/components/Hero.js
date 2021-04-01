@@ -1,13 +1,14 @@
 import React from 'react';
+import Github from './Github';
 
 const Hero = ({handleLogout}) => {
     return(
         <section className="hero">
             <nav>
-                <h2>Hello</h2>
+                <h4>Hello Build Test</h4>
                 <button onClick={handleLogout}>Logout</button>
             </nav>
-            
+            <Github/>            
         </section>
     )
 }
